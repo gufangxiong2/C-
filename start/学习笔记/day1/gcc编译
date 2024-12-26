@@ -1,0 +1,17 @@
+此文档讲述如何编译执行c语言在文本编辑器中(要保证路径中有gcc编译器并在hello.c的目录中运行)
+1.文本编辑器输入代码
+2.保存文件为xxx.c如(hello.c)
+3.打开命令提示符进入到目录
+注:指定gcc路径
+进入D盘直接输入D:
+导航到d盘目录后cd 文件夹名称 即可进入文件夹
+dir则输出所有文件
+4.输入gcc xxx.c   然后回车进行编译
+5.没有错误会生成a.out或者是a.exe(windows)
+6.输入a.out或者是a.exe执行
+7.可以得到代码运行结果
+
+
+若为多个c源码文件 如text1.c text2.c
+代码为gcc text1.c text2.c -o main.out
+./main.out
